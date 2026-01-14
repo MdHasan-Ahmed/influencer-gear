@@ -1,0 +1,79 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/** Variable */
+:root{
+  --main-font:"Poppins", sans-serif;
+  --secondary-font:"Inter", sans-serif;
+  --third-font:"Roboto", sans-serif;
+  --last-font:"Manrope", sans-serif;
+
+  --grey-black: #3A3A3A;
+  --maroon: #E02C6D;
+  --black: #000000;
+  --light-grey: #3a3a3a;
+  --white: #ffffff;
+}
+
+/* Thin 100
+ExtraLight 200
+Light 300
+Regular 400
+Medium 500
+SemiBold 600
+Bold 700
+ExtraBold 800
+Black 900
+Thin 100 Italic
+ExtraLight 200 Italic
+Light 300 Italic
+Regular 400 Italic
+Medium 500 Italic
+SemiBold 600 Italic
+Bold 700 Italic
+ExtraBold 800 Italic
+Black 900 Italic */
+
+/* Repeat style */
+
+/* main style */
+#hero {
+  padding: 90px 120px 70px;
+  margin: 0 auto;
+}
+.logo {
+  font-family: var(--main-font);
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--grey-black);
+}
+
+.menu li, a , ul {
+  font-family: var(--main-font);
+  font-size: 16px;
+  font-weight: 600;
+  list-style: none;
+  text-decoration: none;
+  color: var(--grey-black);
+  display: flex;
+  gap: 34px;
+  align-items: center;
+}
+
+.menu-icon{
+  font-size: 24px;
+  display: flex;
+  gap: 34px;
+}
+
+.navigation{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+
