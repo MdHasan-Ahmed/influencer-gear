@@ -55,6 +55,9 @@ Black 900 Italic */
 }
 
 /* main style */
+body{
+  background-color:rgba(255, 255, 255, 1);
+}
 
 /* header style  */
 header {
@@ -133,6 +136,19 @@ header {
 }
 
 /* hero section style  */
+
+/* market place style  */
+#market-place{
+  padding: 0 165px;
+}
+.market-container{
+  display: grid;
+  gap: 60px;
+  align-items: center;
+  grid-template-columns: repeat(7 , 1fr);
+}
+
+/* market place style  */
 
 
 
