@@ -38,11 +38,31 @@ ExtraBold 800 Italic
 Black 900 Italic */
 
 /* Repeat style */
+.btn {
+  padding: 10px 24px;
+  background-color: var(--maroon);
+  border: none;
+  border-radius: 41px;
+  color: var(--white);
+}
+
+.btn a{
+  color: var(--white);
+}
+
+.btn i{
+  margin-left: -20px;
+}
 
 /* main style */
-#hero {
+
+/* header style  */
+header {
   padding: 90px 120px 70px;
   margin: 0 auto;
+  /* background: url(./images/Circle\ design.svg);
+  background-repeat: no-repeat;
+  background-position: right bottom; */
 }
 .logo {
   font-family: var(--main-font);
@@ -72,7 +92,47 @@ Black 900 Italic */
 .navigation{
   display: flex;
   justify-content: space-between;
+  margin-bottom: 50px;
 }
+
+/* header style  */
+
+/* hero section style  */
+.hero-content{
+  max-width: 582px;
+}
+.hero-content > * {
+  margin-bottom:16px ;
+}
+.hero-content h1{
+  font-size: 52px;
+  font-weight: 700;
+  font-family: var(--main-font);
+  color: var(--grey-black);
+}
+
+.hero-content p{
+  font-family: var(--main-font);
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--grey-black);
+}
+
+#hero{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+ 
+
+.hero-image{
+  padding: 30px 33px 31px 2px;
+  background: url(./images/Circle\ design.svg);
+  background-repeat: no-repeat;
+  background-position: left top;
+}
+
+/* hero section style  */
 
 
 
