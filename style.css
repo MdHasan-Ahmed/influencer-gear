@@ -54,6 +54,21 @@ Black 900 Italic */
   margin-left: -20px;
 }
 
+.btn2{
+  padding: 10px 24px;
+  background-color: var(--maroon);
+  border: none;
+  color: var(--white);
+}
+
+.btn2 a{
+  color: var(--white);
+}
+
+.btn2 i{
+  margin-left: 8px;
+}
+
 /* main style */
 body{
   background-color:rgba(255, 255, 255, 1);
@@ -235,6 +250,28 @@ header {
 .see-more-btn i{
   margin-left: 10px;
 }
+
+#feature{
+  padding: 0 165px 100px 165px;
+  display: flex;
+  justify-content: space-between;
+  gap: 96px;
+  align-items: center;
+}
+
+.feature-content h2{
+  font-size: 2.37rem;
+  margin-bottom: 16px;
+}
+
+.feature-content p{
+  color: var(--light-grey);
+  font-weight: 700;
+  line-height: 28px;
+  margin-bottom: 16px;
+}
+
+
 
 
 
