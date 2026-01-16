@@ -364,13 +364,13 @@ footer p{
 
   .navigation{
   display: flex;
-  margin: 35px 16px 22px  ;
+  margin: 0px 16px 22px  ;
   justify-content: space-between;
   align-items: center;
 }
 
 header {
-  padding: 35px 16px 50px;
+  padding: 35px 16px 30px;
   margin: 0 auto;
 }
 
@@ -412,12 +412,19 @@ header {
 }
 
 .market-container{
-  padding: 0 42px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  padding:10px 0px;
+  gap: 20px;
 }
+
+
+.market-logo img{
+  max-width: 50px;
+}
+
 
 }
 
