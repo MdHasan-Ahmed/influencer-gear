@@ -170,8 +170,8 @@ header {
 }
 .collection-card-container{
   display: grid;
-  grid-template-columns: repeat(3 , 1fr);
-  justify-content: space-between;
+  grid-template-columns: repeat(3 , max-content);
+  justify-content:space-between;
   gap: 30px;
   margin-bottom: 50px;
 }
