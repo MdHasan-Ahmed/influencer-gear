@@ -251,6 +251,8 @@ header {
   margin-left: 10px;
 }
 
+/* feature style  */
+
 #feature{
   padding: 0 165px 100px 165px;
   display: flex;
@@ -271,8 +273,41 @@ header {
   margin-bottom: 16px;
 }
 
+/* footer style  */
+footer{
+  text-align: center;
+  padding: 50px 589px;
+  background-color: #0A0826;
+  color: var(--white);
+}
 
+footer h2{
+  font-size: 1.5rem;
+  margin-bottom: 3px;
+}
 
+footer p{
+  font-family: var(--third-font);
+  font-size: .875rem;
+  line-height: 24px;
+  margin-bottom: 17px;
+}
+/* footer style   */
+.footer-icon i{
+  width: 36px;
+  height: 36px;
+  background-color: rgba(255, 255, 255, .1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.footer-icon{
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+};
 
 
 
