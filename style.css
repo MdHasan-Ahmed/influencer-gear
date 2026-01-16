@@ -78,11 +78,17 @@ header {
   background-repeat: no-repeat;
   background-position: right bottom; */
 }
+.navigation .navbar{
+  display: none;
+}
 .logo {
   font-family: var(--main-font);
   font-size: 1.5rem;
   font-weight: 700;
   color: var(--grey-black);
+}
+.menu .navbar{
+  display: none;
 }
 
 .menu li, a , ul {
@@ -109,6 +115,7 @@ header {
   display: flex;
   justify-content: space-between;
   margin-bottom: 50px;
+  align-items: center;
 }
 
 /* header style  */
@@ -323,6 +330,9 @@ footer p{
   gap: 16px;
 };
 
+/* responsive */
 
-/* effect hover style  */
+@media screen and (max-width:576px) {
+  
+}
 
