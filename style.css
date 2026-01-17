@@ -150,6 +150,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 20px;
 }
  
 
@@ -396,7 +397,7 @@ header {
 }
 
 .hero-content h1{
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   margin-bottom: 15px;
 }
 
@@ -434,7 +435,7 @@ header {
 
 /* tablet device */
 
-@media screen and (min-width: 576px) and (max-width:768px) {
+@media screen and (min-width: 577px) and (max-width:768px) {
   .logo{
     font-size: 1.2rem;
   }
@@ -476,11 +477,11 @@ header {
   background-repeat: no-repeat;
   background-position: left top;
   transition: ease-in-out .5s;
-  background-size: 257px;
+  background-size: 300px;
 }
 
 .hero-image img{
-  max-width: 200px;
+  max-width: 250px;
 }
 
 .hero-content{
@@ -488,7 +489,7 @@ header {
 }
 
 .hero-content h1{
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   margin-bottom: 15px;
 }
 
@@ -525,9 +526,9 @@ header {
 }
 /* mini laptop device */
 
-@media screen and (min-width: 768px) and (max-width:992px) {
+@media screen and (min-width: 769px) and (max-width:992px) {
   .logo{
-    font-size: 1.2rem;
+    font-size: 1.55rem;
   }
 
   .menu li:not(.cart) {
@@ -567,11 +568,11 @@ header {
   background-repeat: no-repeat;
   background-position: left top;
   transition: ease-in-out .5s;
-  background-size: 257px;
+  background-size: 300px;
 }
 
 .hero-image img{
-  max-width: 200px;
+  max-width: 250px;
 }
 
 .hero-content{
@@ -579,7 +580,7 @@ header {
 }
 
 .hero-content h1{
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   margin-bottom: 15px;
 }
 
@@ -609,10 +610,24 @@ header {
 
 
 .market-logo img{
-  max-width: 90px;
+  max-width: 75px;
 }
 
 
 }
 
-@media screen
+/* big laptop device  */
+
+@media screen and (min-width:993px) and (max-width:1200px) {
+  .hero-content h1{
+  font-size: 2.5rem;
+}
+
+}
+
+
+/* desktop device */
+
+@media screen and (min-width:1201px) and (max-width:1400px){
+
+}
