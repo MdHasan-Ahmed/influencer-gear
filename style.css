@@ -330,7 +330,6 @@ footer p{
   line-height: 24px;
   margin-bottom: 17px;
 }
-/* footer style   */
 .footer-icon i{
   width: 36px;
   height: 36px;
@@ -478,6 +477,19 @@ header {
   max-width: 100%;
 }
 
+footer{
+  padding: 50px 68px;
+  color: var(--light-grey);
+}
+
+footer h2{
+  font-size: 1.3rem;
+}
+
+footer p{
+  font-size: .800rem;
+}
+
 
 
 
@@ -619,6 +631,19 @@ header {
   max-width: 100%;
 }
 
+footer{
+  padding: 50px 68px;
+  color: var(--light-grey);
+}
+
+footer h2{
+  font-size: 1.3rem;
+}
+
+footer p{
+  font-size: .800rem;
+}
+
 
 
 }
@@ -749,6 +774,19 @@ header {
   max-width: 100%;
 }
 
+footer{
+  padding: 50px 68px;
+  color: var(--white);
+}
+
+footer h2{
+  font-size: 1.5rem;
+}
+
+footer p{
+  font-size: .800rem;
+}
+
 
 }
 
@@ -799,6 +837,19 @@ header {
   max-width: 100%;
 }
 
+footer{
+  padding: 50px 68px;
+  color: var(--white);
+}
+
+footer h2{
+  font-size: 1.5rem;
+}
+
+footer p{
+  font-size: .800rem;
+}
+
 
 
 
@@ -809,4 +860,10 @@ header {
 
 @media screen and (min-width:1201px) and (max-width:1400px){
 
+  footer{
+  padding: 50px 470px;
+  color: var(--white);
 }
+}
+
+@media screen and (min-width:1440
