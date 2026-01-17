@@ -191,7 +191,7 @@ header {
 
 /* collection card style  */
 #collection{
-  padding: 100px 196px;
+  padding: 100px 165px;
 }
 
 #collection h2{
@@ -216,6 +216,10 @@ header {
   border-radius: 7px;
   transition: ease-in-out .3s;
   cursor: pointer;
+}
+
+.collection-card img{
+  max-width: 100%;
 }
 
 .collection-card:hover{
@@ -269,6 +273,7 @@ header {
   text-align: right;
   color: var(--maroon);
   font-weight: 700;
+  text-decoration: none;
 }
 
 .see-more-btn i{
@@ -431,6 +436,22 @@ header {
 }
 
 
+#collection{
+  padding: 50px 16px;
+}
+
+.collection-card-container{
+  grid-template-columns: repeat(1 , max-content);
+  justify-content: center;
+}
+
+.collection-card h3{
+  font-weight: 700;
+
+}
+
+
+
 }
 
 /* tablet device */
@@ -523,6 +544,26 @@ header {
 }
 
 
+#collection{
+  padding: 50px 16px;
+}
+
+.collection-card-container{
+  grid-template-columns: repeat(1 , max-content);
+  justify-content: center;
+}
+
+.collection-card{
+  max-width: 100%;
+}
+
+.collection-card h3{
+  font-weight: 700;
+
+}
+
+
+
 }
 /* mini laptop device */
 
@@ -613,6 +654,17 @@ header {
   max-width: 75px;
 }
 
+#collection{
+  padding: 20px 50px;
+}
+
+.collection-card-container{
+  grid-template-columns: repeat(2 , max-content);
+}
+
+.collection-card h3{
+  font-weight: 600;
+}
 
 }
 
@@ -622,6 +674,21 @@ header {
   .hero-content h1{
   font-size: 2.5rem;
 }
+
+#collection{
+  padding: 20px 16px;
+}
+
+.collection-card{
+  max-width: 300px;
+  padding: 14px 17px;
+}
+
+.collection-card img{
+  max-width: 100%;
+}
+
+
 
 }
 
